@@ -6,9 +6,9 @@
 }
 
 body {
-  background-image: url(https://fondosmil.com/fondo/31351.png);
-  background-repeat:repeat;
-  background-size: 100%;
+  background-image: url(https://econojournal.com.ar/cntnt/uploads/2019/11/Gasoducto-Noreste.jpg);
+  background-repeat:no-repeat;
+  background-size: cover;
   height:100%;
   font-family: "Righteous", cursive;
 }
@@ -54,7 +54,7 @@ footer {
   bottom: 0px;
   height: 1000px;
   width: 100%;
-  background-image: linear-gradient(to right, #12ACFF 5%, transparent 85%);
+  background-image: linear-gradient(to right, black 5%, transparent 85%);
   height: 5em;
   text-align: center;
   text-shadow: 2px 2px 4px #000000;
@@ -63,7 +63,7 @@ footer {
 
 ul {
   list-style-type: none;
-  margin: 0;
+  margin: 1px;
   padding: 0;
   overflow: hidden;
 }
@@ -90,6 +90,8 @@ li a:hover {
 .principal{
   border-radius: 15px;
   height:150px;
+  border-style: solid;
+  box-shadow: 4px 5px 5px 0.1px grey;
   
 
 }
@@ -116,7 +118,7 @@ li a:hover {
   align-content: center;
   height: 100%;
   margin-top: 100px;
-  margin-bottom: 50px;
+  margin-bottom: 40px;
   padding-right: 25px;
 }
 .accordion{
