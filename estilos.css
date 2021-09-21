@@ -42,7 +42,7 @@ li {
 }
 
 body {
-  background-image: url(https://econojournal.com.ar/cntnt/uploads/2019/11/Gasoducto-Noreste.jpg);
+ background-image:  linear-gradient(to right, black 5%, #115A65 85%);
   background-repeat:repeat;
   background-size: cover;
   height:100%;
@@ -90,7 +90,7 @@ footer {
   bottom: 0px;
   height: 100px;
   width: 100%;
-  background-image: linear-gradient(to right, #115A65 5%, #115A65 85%);
+  background-image: linear-gradient(to right, #20B9D0 5%, #115A65 85%);
   height: 5em;
   text-align: center;
   text-shadow: 2px 2px 4px black;
@@ -102,7 +102,7 @@ ul {
   margin: 0px;
   padding: 0;
   overflow: hidden;
-   background-image: linear-gradient(to right, #115A65 5%, transparent 85%);
+   background-image: linear-gradient(to right, #20B9D0 5%, transparent 85%);
 }
 
 li {
