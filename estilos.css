@@ -90,22 +90,24 @@ footer {
   bottom: 0px;
   height: 100px;
   width: 100%;
-  background-image: linear-gradient(to right, white 5%, transparent 85%);
+  background-image: linear-gradient(to right, #115A65 5%, #115A65 85%);
   height: 5em;
   text-align: center;
-  text-shadow: 2px 2px 4px #000000;
-  color:black;
+  text-shadow: 2px 2px 4px black;
+  color:white;
 }
 
 ul {
   list-style-type: none;
-  margin: 1px;
+  margin: 0px;
   padding: 0;
   overflow: hidden;
+   background-image: linear-gradient(to right, #115A65 5%, transparent 85%);
 }
 
 li {
   float: right;
+  
 }
 
 li a {
@@ -114,11 +116,13 @@ li a {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
+
 }
 
 li a:hover {
   background-color: white;
-  border-radius: 15px;
+  color:#44CEE7;
+  border-radius: 1px;
 }
 
 
