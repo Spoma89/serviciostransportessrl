@@ -85,16 +85,16 @@ p {
 footer {
   font-size: 13px;
   margin: auto;
-  position: fixed;
+  position: sticky;
   left: 0px;
   bottom: 0px;
-  height: 1000px;
+  height: 100px;
   width: 100%;
-  background-image: linear-gradient(to right, black 5%, transparent 85%);
+  background-image: linear-gradient(to right, white 5%, transparent 85%);
   height: 5em;
   text-align: center;
   text-shadow: 2px 2px 4px #000000;
-  color:white;
+  color:black;
 }
 
 ul {
@@ -132,14 +132,16 @@ li a:hover {
 
 }
 .indexp{
-  margin-bottom: 90px;
-  font-size: 20px;
-  text-align: center;
+  
+  font-size: 18px;
+  text-align: justify;
    text-shadow: 2px 2px 4px #000000;
 }
-.indexp1{ font-size: 25px;
+.indexp1{ font-size: 19px;
   text-align: justify;
  text-shadow: 2px 2px 4px #000000;
+ margin-top: 50px;
+ margin-bottom: 100px;
 
 }
 .ti1{
@@ -158,4 +160,15 @@ li a:hover {
 .accordion{
   margin-bottom: auto;
   text-align: center;
+}
+i{
+  padding: 7px;
+
+}
+div.col{
+  float: center;
+}
+
+.accordion-item{
+background-image: linear-gradient(to right, transparent 5%,  #AFCCF5   85%);
 }
